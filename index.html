@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ad413634f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.png" class="logo" width="180px" height="50px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Softwer Engineer</p>
+                <h1>Hi, I am <span>Roshani</span><br> Chaurasiya from Varanasi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------About---------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/img4.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated designer and developer in creating custom websites through HTML, CSS and JavaScript.
+                        Strong collaboration skills and proven history of application development. Majorly worked HTML,
+                        CSS, Bootstrap,React and JavaScript. Seeking a challenging career opportunity for a web
+                        development career and believe in giving more than what I take.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>React JS Developer</span><br>React App Development</li>
+                            <li><span>Frontent Developer</span><br>Frontent Side Development</li>
+                            <li><span>Web Developer</span><br>Web Development</li>
+                            <li><span>UI/UX </span><br>Designing web/app interfaces</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - current</span><br>Writ Labs</li>
+                            <li><span>2021 - 2022</span><br>CS Soft Solution</li>
+                            <li><span>2021</span><br>Function Up</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2021</span><br>B.Sc - Udai Pratap College</li>
+                            <li><span>2017 - 2018</span><br>XII - State Board</li>
+                            <li><span>2015 - 2016</span><br>X - State Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------Services---------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React JS Developer</h2>
+                    <p>ReactJS developers are front-end developers who build modern-day UI components to improvise
+                        application performance. They leverage their knowledge about JavaScript, HTML, CSS and work
+                        closely with testers, designers, web designers, and project managers to create a robust and
+                        effective application.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Front End Developer</h2>
+                    <p>Front end developers are computer programmers who specialize in website design. Front end
+                        developer duties include determining the structure and design of web pages, striking a balance
+                        between functional and aesthetic design.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Developer</h2>
+                    <p>A UI, UX, and front-end web developer is responsible for applying interactive and visual design
+                        principles on websites and web applications for a positive and cohesive user experience. These
+                        developers use HTML, CSS, and other design tools to achieve responsive designs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------Portfolio--------------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/home.jpg">
+                    <div class="layer">
+                        <h3>Home Page Design</h3>
+                        <p>I have created a web home page. I have used HTML, CSS and Bootstrap for looking your Website
+                            attractive there.</p>
+                        <a href="https://roshanichaurasiya.github.io/Marquee-project/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/calculator1.jpg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p> I have created my own Calculator for calculating. I have used HTML, CSS and JavaScript
+                            there.</p>
+                        <a href="https://roshanichaurasiya.github.io/MyCalculator/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/note1.jpg">
+                    <div class="layer">
+                        <h3>Magic Notes</h3>
+                        <p> I have created a Note for rememebr all things. I have used HTML, Bootstrap and JavaScript
+                            there.</p>
+                        <a href="https://roshanichaurasiya.github.io/PleaseRemember/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------Contact-------------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> roshni.chaurasiya2111@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-88819 01986</p>
+                    <p><a href="https://www.linkedin.com/in/roshani-chaurasiya-515344224"><i
+                                class="fa-brands fa-linkedin"></i>Linkedin</a></p>
+                    <a href="Images/Roshani's Resume.pdf" download class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Roshani 2023</p>
+        </div>
+    </div>
+    <!-- ----------------------------------------------Script------------------------------------------------------ -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+
+</body>
+
+</html>
