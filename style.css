@@ -56,17 +56,14 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
-.header-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.header-text {  
   text-align: center;
   width: 70%;
   color: #ff004f;
-  margin-top: 20%;
   font-size: 30px;
   background: #0f0d0d;
   border-radius: 10px;
+  margin: 20% 12%;
 }
 .header-text h1 {
   font-size: 60px;
