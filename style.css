@@ -57,11 +57,15 @@ nav ul li a:hover::after {
   width: 100%;
 }
 .header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   width: 70%;
-  color: #1e047b;
+  color: #ff004f;
   margin-top: 20%;
   font-size: 30px;
-  background: #f6dfdf;
+  background: #0f0d0d;
   border-radius: 10px;
 }
 .header-text h1 {
@@ -69,7 +73,7 @@ nav ul li a:hover::after {
   margin-top: 20px;
 }
 .header-text h1 span {
-  color: #ff004f;
+  color: #fff;
 }
 
 /* ------------------About--------------------- */
