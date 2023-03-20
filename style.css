@@ -64,6 +64,8 @@ nav ul li a:hover::after {
   background: #0f0d0d;
   border-radius: 10px;
   margin: 20% 12%;
+  opacity: 0.8;
+  padding: 10px;
 }
 .header-text h1 {
   font-size: 60px;
